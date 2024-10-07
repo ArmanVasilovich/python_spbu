@@ -12,5 +12,8 @@ for i in range(1, 101):
 # wordList = list(word)
 # print(wordList)
 
+# Сортировка
+nums2 = [2, 13, 44, 9, 88]
+sortNumns = sorted(nums2)
 
 
