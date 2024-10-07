@@ -117,3 +117,6 @@ import random
 # print('DatabseCopy: ', databaseCopy)
 # print('DatabaseDeepCopy: ', databaseDeepCopy)
 
+# # List Comprehension
+# numbers = {i:i**2 for i in range(1,11)}
+# print(numbers)
