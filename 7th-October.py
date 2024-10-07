@@ -2,7 +2,6 @@
 # myList = [1, 2, 3, 4, 5]
 # myList.append(6)
 # print(myList)
-from itertools import count
 
 # Добавление массива цифр от 1 до 100
 # nums = []
@@ -51,6 +50,8 @@ from itertools import count
 count = 1
 matrix = []
 for i in range(3):
-    matrix.append(list(range(1, 4)))
-
+    matrix.append(list(range(count, count + 3)))
+    count += 3
 print(matrix)
+
+# Test Remote Branch
