@@ -120,3 +120,19 @@ import random
 # # List Comprehension
 # numbers = {i:i**2 for i in range(1,11)}
 # print(numbers)
+
+# Task 1
+student = input('Введите информацию о студенте: ').split()
+studentDict = dict()
+studentDict['name'] = student[0]
+studentDict['surname'] = student[1]
+studentDict['city'] = student[2]
+studentDict['univercity'] = student[3]
+studentDict['grade'] = []
+
+
+for i in student[4:]:
+    studentDict['grade'].append(int(i))
+
+for i in studentDict:
+    print(f'{i} - {studentDict[i]}')
