@@ -1,8 +1,10 @@
+import copy
+import random
+
 # Добавление элемента в конец списка
 # myList = [1, 2, 3, 4, 5]
 # myList.append(6)
 # print(myList)
-import random
 
 # Добавление массива цифр от 1 до 100
 # nums = []
@@ -74,8 +76,44 @@ import random
 # squares = [i**2 if i%2 != 0 else i for i in range(1, 11)]
 # print(squares)
 
-# Random
-myList = [random.randint(50, 80) for i in range(10)]
-print(myList)
-print('', myList[:5], '\n', myList[5:])
-print(myList[::2])
+# # Random
+# myList = [random.randint(50, 80) for i in range(10)]
+# print('Full list: ', myList)
+# print('First 5 elements: ', myList[:5],'\n','Last 5 elements: ', myList[5:])
+# print('Full list with the step (2): ', myList[::2])
+
+# # Словарь
+# myDict = {}
+# dictTwo = dict()
+# # print(type(myDict), type(dictTwo))
+
+# myDict = {
+#     'Pavel': 12,
+#     'Ivan': 11,
+#     'Peter': 15,
+#     'Natalia': 13,
+#     'Olga': 22
+# }
+# myDict['Pavel'] = 14
+# # print(myDict.keys())
+# # print('PetrTheFirst' in myDict)
+#
+# database = {
+#     'Pavel': [12, 20, 1, 14],
+#     'Olga': [11, 10, 30 ,21]
+# }
+# # print(database)
+#
+# # databaseCopy = database.copy()
+# databaseCopy = copy.copy(database)
+# databaseCopy['Ivan'] = [10, 8, 8 ,7]
+# databaseCopy['Yan'] = [15, 17, 19, 25]
+#
+# database['Pavel'][0] = 17
+# databaseDeepCopy = copy.deepcopy(database)
+# databaseDeepCopy['Pavel'][0] = 30
+#
+# print('Databse: ', database)
+# print('DatabseCopy: ', databaseCopy)
+# print('DatabaseDeepCopy: ', databaseDeepCopy)
+
