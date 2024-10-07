@@ -2,7 +2,7 @@
 # myList = [1, 2, 3, 4, 5]
 # myList.append(6)
 # print(myList)
-from random import random
+import random
 
 # Добавление массива цифр от 1 до 100
 # nums = []
@@ -73,3 +73,9 @@ from random import random
 # # List Comprehension (В одну строчку с условием)
 # squares = [i**2 if i%2 != 0 else i for i in range(1, 11)]
 # print(squares)
+
+# Random
+myList = [random.randint(50, 80) for i in range(10)]
+print(myList)
+print('', myList[:5], '\n', myList[5:])
+print(myList[::2])
