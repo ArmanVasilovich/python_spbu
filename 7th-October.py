@@ -49,9 +49,12 @@
 # Матрица
 count = 1
 matrix = []
-for i in range(3):
+for i in range(7):
     matrix.append(list(range(count, count + 3)))
     count += 3
-print(matrix)
 
-# Test Remote Branch
+# Вывод матрицы
+for i in matrix:
+    for j in i:
+        print(j, end=' ')
+    print()
