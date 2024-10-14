@@ -130,7 +130,6 @@ studentDict['city'] = student[2]
 studentDict['univercity'] = student[3]
 studentDict['grade'] = []
 
-
 for i in student[4:]:
     studentDict['grade'].append(int(i))
 
