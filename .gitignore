@@ -1,1 +1,84 @@
+# Jupyter notebooks and Python coursework
+# Keep notebooks, source code, datasets needed to reproduce results,
+# dependency manifests, lock files, and project configuration in Git.
+
+# Jupyter: automatically generated notebook checkpoints
+.ipynb_checkpoints/
+
+# Python: bytecode and local package environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+__pypackages__/
+
+# Python: generated build and packaging artifacts
+/build/
+/dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Tool caches and generated test/coverage reports
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Local environment variables and tool credentials
+# Template files must contain placeholders only, never real secrets.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.pypirc
+.streamlit/secrets.toml
+
+# Operating system metadata
+.DS_Store
+._*
+.AppleDouble/
+__MACOSX/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor: per-user state, local history, swap and backup files
 .idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/httpRequests/
+.vscode/.history/
+*.swp
+*.swo
+*~
+
+# OPTIONAL: uncomment only when these are generated/local directories.
+# Paths starting with / refer to the repository root.
+# /data/raw/
+# /data/processed/
+# /models/
+# /checkpoints/
+# /outputs/
+# /logs/
+# /wandb/
+# /mlruns/
+# /lightning_logs/
+# /runs/
+# /.jupyter/
+# /.ipython/
+
+# Do not broadly ignore *.ipynb, *.csv, *.json, *.png, *.pdf, or *.html.
+# Keep requirements.txt, environment.yml, pyproject.toml, .python-version,
+# and dependency lock files when used by the project.
+
